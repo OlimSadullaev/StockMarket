@@ -37,3 +37,18 @@ The project integrates with the [Financial Modeling Prep API](https://site.finan
    dotnet restore
    dotnet build
    dotnet run
+
+### Frontend
+1. Navigate to the /Frontend folder.
+2. Install dependencies and start the development server:
+   ```bash
+   npm install
+   npm start
+   
+### API Configuration
+## You need to configure your API key from Financial Modeling Prep.
+1. Go to appsettings.json (in the backend) and add your API key:
+   ```bash
+   "FinancialModelingPrep": {
+   "ApiKey": "YOUR_API_KEY"
+   }
